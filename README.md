@@ -36,3 +36,9 @@ The dependencies of this packages are arrenged as in figure:
 ![Screenshot](bannersUml.png)
 
 Dependencies point to the center of the circle, where the high-level policies resides.
+
+**TO FIX**
+
+   Currently, the stored procedure that gather the data from the database accept an output
+   parameter, but it always returns no value. Not found enough information on any 
+   documentation / stackoverflow question / github issues to solve this issue yet.
