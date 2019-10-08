@@ -21,7 +21,7 @@ It is composed of four packages:
    - **banners.database -> package database**
   
     This package contains all database-related functions, along with the query.go file 
-    where the queries are stored.
+    where the queries and the database connection string are stored.
   
    - **banners.domain -> package domain**
   
