@@ -13,15 +13,16 @@ It is composed of four packages:
    ```/cms/banners/?language=?;pageId=?;deviceId=?```
     
     
-    In the enpoint.go file is possible to specify if a new dataset should not be created by commenting out the 
-    database.Seed() instruction.
+    In the enpoint.go file is possible to specify if a new dataset should not be created by 
+    commenting out the database.Seed() instruction.
     
     This package contains also a test called endpoint_test.go which test the correctness of the 
     GetBanners() function.
   
    - **banners.database -> package database**
   
-    This package contains all database-related functions, along with the query.go file where the queries are stored.
+    This package contains all database-related functions, along with the query.go file 
+    where the queries are stored.
   
    - **banners.domain -> package domain**
   
