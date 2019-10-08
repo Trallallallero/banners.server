@@ -6,11 +6,11 @@ The goal of this PoC is to set up an endpoint that allows to fetch data from a l
 It is composed of four packages:
 
     - **banners.server -> package main**
-    
+
     This package contains the Main() function.
     In here the Echo framework set up the endpoint specifying the route value and the the query parameters.
     
-    ```/cms/banners/?language=?;pageId=?;deviceId=?```
+    /cms/banners/?language=?;pageId=?;deviceId=?
     
     In the enpoint.go file is possible to specify if a new dataset should not be created by commenting out the 
     database.Seed() instruction.
