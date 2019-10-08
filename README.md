@@ -10,7 +10,9 @@ It is composed of four packages:
     This package contains the Main() function.
     In here the Echo framework set up the endpoint specifying the route value and the the query parameters.
     
-    ```/cms/banners/?language=?;pageId=?;deviceId=?```
+    ```
+    /cms/banners/?language=?;pageId=?;deviceId=?
+    ```
     
     In the enpoint.go file is possible to specify if a new dataset should not be created by commenting out the 
     database.Seed() instruction.
